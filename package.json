@@ -44,6 +44,11 @@
       "react-app/jest"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "gts check"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
